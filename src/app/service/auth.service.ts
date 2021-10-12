@@ -29,7 +29,7 @@ export class AuthService {
   }
 
   entrar(usuarioLogin: UsuarioLogin): Observable<UsuarioLogin>{
-    return this.http.post<UsuarioLogin>('https://lamennews.herokuapp.com/usuarios/logar',UsuarioLogin) 
+    return this.http.post<UsuarioLogin>('https://lamennews.herokuapp.com/usuarios/logar',usuarioLogin) 
   }
 
   cadastrar(usuario: Usuario): Observable<Usuario>{
