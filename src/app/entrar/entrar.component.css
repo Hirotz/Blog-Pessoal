@@ -1,9 +1,19 @@
 #img-bg{
-    background-image: url('../../assets/imagens/lamen2.png');
+    background-image: url('../../assets/imagens/lamen3.gif');
 
     min-height: 695px;
 
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.imglamen{
+    background-image: url('../../assets/imagens/lamen8.jpg');
+
+    min-height:695px;
+
+    background-position:-400px;
+    background-repeat: no-repeat;
+    background-size:cover;
 }
